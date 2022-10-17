@@ -1,0 +1,1061 @@
+1) Predict the output of the below program code with the input as 10, 20, 30, 40 and 50.
+
+import java.util.*;
+class Test {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		int[] a = new int[5];
+
+		for(int i=0; i<=a.length-1; ++i)
+		{
+			a[i] = scan.nextInt();
+		}
+
+		for(int i=a.length-1; i<=0; --i)
+		{
+			System.out.print(a[i]+" ");
+		}
+	}
+}
+
+2) Predict the output of the below program code.
+
+class Test {
+	public static void main(String[] args) {
+		int a[] = new int[5];
+		int i = 0;
+		for(i=0; i<=a.length-1; ++i)
+		{
+			a[i] = i;
+		}
+		int sum = 0;
+		for(i=0; i<=a.length-1; ++i)
+		{
+			sum = sum + a[i];
+
+		}
+		System.out.println(sum);
+	}
+}
+
+2) Predict the output of the below program code.
+
+class Test {
+	public static void main(String[] args) {
+		int[] a = {1,2,3,4,5,6,7,8,9,10};
+
+		for(int i=0; i<=a.length-1; ++i)
+		{
+			System.out.print(a[i]+" ");
+			++i;
+		}
+	}
+}
+
+3) Predict the output of the below program code.
+
+class Test {
+	public static void main(String[] args) {
+		int[] a = {1,2,3,4,5,6,7,8,9,10};
+
+		int i = 0;
+		while(i < a.length)
+		{
+			++i;
+			System.out.print(a[i]+" ");
+			if(i == 6)
+				break;
+			i=5;
+		}
+	}
+}
+4) Predict the output of the below program code.
+
+class Test {
+	public static void main(String[] args) {
+		int[] a = {1,2,3,4,5,6,7,8,9,10};
+
+		int i = 1;
+		do
+		{
+			System.out.print(a[i]+" ");
+			i += 2;
+		}while(i < a.length-1);
+	}
+}
+
+5) Predict the output of the below program code.
+
+class Test {
+	public static void main(String[] args) {
+		int[] arr = {9,7,5,3,1};
+
+		int n = 6;
+		n = arr[(arr[n/2]/2)-1];
+		System.out.print(n);
+	}
+}
+
+6) Predict the output of the below program code.
+
+class Test {
+	public static void main(String[] args) {
+		int arr[2];
+		arr[0] = 1;
+		arr[1] = 3;
+
+		System.out.println(arr[0]+arr[1]);
+	}
+}
+
+7) Predict the output of the below program code.
+
+class Test {
+	public static void main(String[] args) {
+		int[] a = {1,2,3,4,5};
+		
+		for(int i=0; i<=a.length-1; ++i)
+		{
+			if(i%2 == 0) {
+				System.out.print(a[i]);
+			}
+		}
+	}
+}
+
+8) Predict the output of the below program code.
+
+class Test {
+	public static void main(String[] args) {
+		int[] a = {1,2,3,4,5};
+		int num = 0, sum = 0;
+		for(int i=0; i<=a.length-1; ++i)
+		{
+			num += i;
+			a[i] = num;
+		}
+
+		for(int i=0; i<=a.length-1; ++i)
+		{
+			if(a[i]%2 == 0) {
+				sum = sum + a[i];
+			}
+		}
+		System.out.println(sum);
+	}
+}
+
+9)  Predict the output of the below program code.
+
+class Test {
+	public static void main(String[] args) {
+		int[] a = {1,2,3,4,5};
+
+		for(int i=a.length-1; i>=0; --i)
+		{
+			if(i%2 == 1) {
+				System.out.print(a[i]+" ");
+			}
+		}
+	}
+}
+
+8)  Predict the output of the below program code.
+
+class Test {
+	public static void main(String[] args) {
+		int[] a = {3,2,6,4,9};
+
+		for(int i=a.length-1; i>=0; --i)
+		{
+			if(a[i]%3 == 1) {
+				System.out.println(a[i]);
+			}
+		}
+	}
+}
+
+10)  Predict the output of the below program code.
+
+class Test {
+	public static void main(String[] args) {
+		int[] a = {5,10,16,4,9};
+		int sum = 0;
+		for(int i=0; i<=a.length-1; ++i)
+		{
+			if(a[i]%5==0 || a[i]%3==0) {
+				sum = sum + a[i];
+			}
+		}
+		System.out.println(sum);
+	}
+}
+
+11)  Predict the output of the below program.
+
+class Test {
+	public static void main(String[] args) {
+		int a[] = {1, 2, 3, 4, 5};
+
+		for (int i=0; i<=a.length-1; ++i)
+		{
+			if(i%2 == 0)
+			{
+				System.out.print(i);
+			}
+		}
+	}
+}
+
+12) Predict the output of the below program.
+
+class Test {
+	public static void main(String args[]) {
+		int arr[] = new int[10];
+		for (int i = 0; i < 10; ++i)
+		{
+			arr[i] = i;
+			System.out.print(arr[i] + " ");
+			i++;
+		}
+	}
+}
+
+13)   Predict the output of the below program.
+
+class Test {
+	public static void main(String[] args) {
+		int a[] = {1,2,3,4,5,6,7,8,9};
+		
+		int count = 1;
+		for(int i=0; i<=a.length-1; ++i)
+		{
+			if(a[i]%2 == 0)
+			{
+				++count;
+			}
+			else
+			{
+				++i;
+			}
+		}
+		System.out.println(count);
+	}
+}
+
+14)  Predict the output of the below program.
+
+class Test {
+	public static void main(String[] args) {
+		int a[] = {1,2,3,4,5,6,7,8,9};
+		
+		int count = 0;
+		for(int i=1; i<=a.length-1; ++i)
+		{
+			if(a[i]%2 == 0)
+			{
+				continue;
+			}
+			else
+			{
+				++count;
+			}
+			++i;
+		}
+		System.out.println(count);
+	}
+}
+
+15)  Predict the output of the below program.
+
+class Test {
+	public static void main(String[] args) {
+		int a[] = {1,2,3,4,5,6,7,8,9};
+		
+		for(int i=1; i<=a.length-1; ++i)
+		{
+			if(a[i]%2 == 0)
+			{
+				a[i] = a[i-1];
+			}
+		}
+		for(int i=0; i<=a.length-1; ++i)
+		{
+			System.out.print(a[i]+" ");
+		}
+		
+	}
+}
+
+16)  Predict the output of the below program.
+
+class Test {
+	public static void main(String[] args) {
+		int num[] = {1,2,3,4,5};
+		
+		for(int x=0; x<num.length; ++x)
+		{
+			num[x] = num[0];
+		}
+	}
+}
+17) Predict the output of the below program code.
+
+class Test {
+	public static void main(String[] args) {
+		int[] a = {3,1,5,0,2,4,3,1,4,5,3};
+		int[] res = new int[6];
+		for(int i=0; i<=a.length-1; ++i)
+		{
+			res[a[i]]++;
+		}
+		System.out.println(res[1]);
+	}
+}
+
+18)  Predict the output of the below code snippet.
+
+int[] a = {50,40,30,20,10};
+int max = a[a.length-1];
+System.out.println(max);
+
+19)  Predict the output of the below program code.
+class Test {
+	public static void main(String[] args) {
+		int[] a = {3,1,5,0,2,4,3,1,4,5,3};
+		int[] res = new int[6];
+		for(int i=0; i<=a.length-1; ++i)
+		{
+			res[a[i]]++;
+		}
+		for(int i=0; i<=a.length-1; ++i)
+		{
+			if(i%2 == 0) {
+				if(res[a[i]] == 1)
+					System.out.print(a[i]+" ");
+			}
+		}
+	}
+}
+
+19)  What is the value of a[1] after the following code is executed?
+
+int[] a = {0, 2, 4, 1, 3};
+for(int i = 0; i < a.length; i++)
+{
+	a[i] = a[(a[i] + 3) % a.length];
+}
+
+20)  Predict the output of the below program.
+
+class Test {
+	public static void main(String[] args) {
+		int a[] = {1,2,3,4,5,6,7,8,9};
+		
+		for(int i=0; i<5; ++i)
+		{
+			a[i] = a[i+i];
+		}
+		for(int i=0; i<=a.length-1; ++i)
+		{
+			if(a[i]%2 == 0)
+			{
+				System.out.print(a[i]+" ");
+			}
+		}		
+	}
+}
+
+21)  Predict the output of the below code snippet.
+
+int[] a = {1,2,3,4,5,6,7,8,9};
+int x = a[a.length-1];
+int y = a[x-1];
+if((a.length-1)%2 !=0)
+{
+	System.out.println(x);
+}
+else
+{
+	System.out.println(y);
+}
+
+22)  Predict the output of the below program code.
+
+class Test {
+	public static void main(String[] args) {
+		int[] a = new int[6];
+		int x = 5, pdt = 1;
+
+		for(int i=0; i<=a.length-1; ++i)
+		{
+			a[i] = x + i + 2;
+			x = x/2;
+		}
+
+		for(int i=0; i<=a.length-1; ++i)
+		{
+			if(a[i]%2 == 0)
+			{
+				pdt = pdt * a[i];
+			}
+		}
+		System.out.println(pdt);
+	}
+}
+
+23)  Predict the output for the following code snippet.
+
+class Test {
+	public static void main(String[] args) {
+		int arr[];
+		int size = 3;
+
+		arr = new int[size];
+		for(int i=0; i<arr.length; i++)
+		{
+			arr[i] = (i+1)*2;
+		}
+		for(int j=0; j<arr.length; j++)
+		{
+			System.out.print(arr[j] + " ");
+		}
+	}
+}
+
+24)  Predict the output for the following program code.
+
+class Test {
+	public static void main(String[] args) {
+		char arr [] = new char[10];
+		for (int i = 0; i < 10; ++i)
+		{
+			arr[i] = 'i';
+			System.out.print(arr[i] + " ");
+		}
+	}
+}
+
+25)  Predict the output for the following program code.
+
+class Test {
+	public static void main(String[] args) {
+		double x[] = new double[4];
+		x[0] = 8.5;
+		x[1] = 6.5;
+		x[2] = 9.5;
+		x[3] = 12.5;
+		System.out.println(x[1 + 2]);
+	}
+}
+
+26)  Predict the output for the following code snippet.
+
+class Test {
+	public static void main(String[] args) {
+		int[] x = {120, 200, 016 };
+		for(int i = 0; i < x.length; i++)
+		{
+			System.out.print(x[i] + " ");
+		}
+	}
+}
+
+27)  Predict the output of the below program code.
+
+import java.util.*;
+class Test {
+	public static void main(String[] args) {
+		int[] a = {11, 22, 33, 44, 55, 66, 77, 88, 99};
+		System.out.println(Arrays.binarySearch(a, 56));
+	}
+}
+
+28)  Predict the output for the following code snippet.
+
+import java.util.Arrays;
+class Test {
+	public static void main(String[] args) {
+		int a1[] = {10, 20, 30, 40, 50};
+		int a2[] = a1;
+
+		if(a1 == a2)
+		{
+			System.out.println("Arrays are equal");
+		}
+		else
+		{
+			System.out.println("Arrays are not equal");
+		}
+	}
+}
+
+29)  Predict the output for the following code snippet.
+
+class Test {
+	public static void main(String[] args) {
+		int[] a = new int[4];
+		a[1] = 1;
+		a = new int[2];
+		System.out.println("a[1] is " + a[1]);
+	}
+}
+
+30)  Predict the output for the following code snippet.
+
+class Test {
+	public static void main(String[] args) {
+		int a[] = {30, 50, 20, 40, 10};
+		int pos = Arrays.binarySearch(a, 30);
+		System.out.println(pos);
+	}
+}
+
+31)  Predict the output for the following code snippet.
+
+class Test {
+	public static void main(String[] args) {
+		int arr[] = new int[5];
+		System.out.print(arr);
+	}
+}
+
+32)  Predict the output for the following code snippet.
+
+class Test {
+	public static void main(String[] args) {
+		int[] x = {1, 2, 3, 4};
+		int[] y = x;
+
+		x = new int[2];
+
+		for(int i=0; i<x.length; i++)
+		{
+			System.out.print(y[i] + " ");
+		}
+        }
+}
+
+33)  Predict the output of the below program.
+
+class Test {
+	public static void main(String args[]) {
+		int arr[][] = {{ 1, 2, 3}, { 4, 5, 6}, { 7, 8, 9}};
+		int sum = 0;
+		for (int i = 0; i < 3; ++i)
+		{
+			for (int j = 0; j < 3 ; ++j)
+			{
+				sum = sum + arr[i][j];
+			}
+		}
+		System.out.print(sum / 5);
+	}
+}
+
+34) Predict the output of the below program.
+
+class Test {
+	public static void main(String[] args) {
+		int a[] = {41, 43, 45, 46, 42};
+		boolean temp = false;
+
+		int val = a[2] - a[0];
+		for (int i = 0; i < a.length; i++)
+		{
+			temp = (a[i] == val);
+		}
+		System.out.println(temp);
+	}
+}
+
+35)  Predict the output of the below program.
+
+class Test {
+	public static void main(String[] args) {
+		int x[] = {1, 2, 3, 3, 3};
+		boolean b[] = new boolean[x.length];
+
+		for (int i=0; i<b.length; i++)
+		{
+			b[i] = false;
+		}
+		for (int i=0; i<x.length; i++)
+		{
+			b[x[i]] = true;
+		}
+
+		int count = 0;
+		for (int i=0; i<b.length; i++)
+		{
+			if (b[i] == true)
+			{
+				count++;
+			}
+		}
+		System.out.println(count);
+	}
+}
+
+36)  What is the output for the following code fragment?
+
+int a[] = new int[5];
+a[0] = 5;
+a[1] = 4;
+a[2] = 3;
+System.out.print(a[0] + a[1] + a[4]);
+
+37)  What number is in matrix[2][2]?
+
+int matrix[][] = { {1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}, {13, 14, 15, 16} };
+
+38)  Predict the output of the below program code.
+
+class Test {
+	public static void main(String args[]) {
+		int[][] a = {{10,30,40},{20,40,10}};
+
+		for(int i=0; i<a.length; ++i)
+		{
+			for(int j=0; j<=a.length-1; ++j)
+			{
+				System.out.print(a[i][j]);
+			}
+		}
+
+	}
+}
+
+39)  Predict the output of the below program code.
+
+class Test {
+	public static void main(String args[]) {
+		int[][] a = {{1,2,3},{2,3,4},{3,4,5}};
+
+		for(int i=0; i<=a.length-3; ++i)
+		{
+			for(int j=0; j<=a[i].length-2; ++j)
+			{
+				System.out.print(a[i][j]);
+			}
+		}
+
+	}
+}
+
+40)  Given the following:
+double coordinates[][] = { {1.2, 9.0}, {9.2, 0.5, 0.0}, {7.3, 7.9, 1.2, 3.9} } ;
+What is the value of coordinates.length ?
+
+41)  What will the values stored in arr2 after the following program has executed?
+
+class Test {
+	public static void main(String[] args) {
+		int arr1[] = {2, 4, 1, 3};
+		int arr2[] = {0, 0, 0, 0};
+		int a2 = 0;
+		for (int a1=1; a1 < arr1.length; a1++)
+		{
+			if (arr1[a1] >= 2)
+			{
+				arr2[a2] = arr1[a1];
+				a2++;
+			}
+		}
+	}
+}
+
+42)  What is the output of the below Java program?
+
+class Test {
+	public static void main(String[] args) {
+		int[] arr1 = {20,10,30};
+		int[] arr2 = {arr1[0], arr1[2]};
+		System.out.print(arr2[1]);
+	}
+}
+
+43)  Assume that a 2D Array is created with a reference variable ‘a’ and initialized with the values as shown below. Predict the output, if a[1][1] is printed.
+
+10	20	30
+40	50	60
+70	80	90
+
+44)  What is the order of the matrix shown below?
+1	2	3
+4	5	6
+(Note: If a matrix has m rows and n columns, its order is said to be m × n.)
+
+45)  Given, int[][] a = { {1, 2, 3}, {2, 3, 4}, {3, 4, 5} }; Predict the output, if principal diagonal elements are added and printed.
+
+46)  What is the output of the below Java code snippet?
+
+int vehicles[] = {};
+System.out.print(vehicles.length);
+
+47)  Predict the output of the below Java program.
+
+class Test {
+	public static void main(String[] args) {
+		int[][] a = {{100,200,300},{100,200,300},{100,200,300}};
+		int sum = 0;
+
+		for(int i=0; i<a.length; ++i)
+		{
+			for(int j=0; j<a[i].length; ++j)
+			{
+				if(i+j == a.length-1)
+				{
+					sum = sum + a[i][j];
+				}
+			}
+		}
+		System.out.println(sum);
+	}
+}
+
+48)  While mentioning the array size in a multidimensional array using the new keyword, the left-most script is mandatory.
+
+int arr[][];
+arr = new int[5][]; //first dimension is compulsory.
+
+49)  What is the output of the below code snippet?
+
+int[] ary = {40, 30};
+int a = 20;
+ary[1] = a;
+a = 30;
+System.out.println(ary[1]);
+
+50)  Predict the total number of array objects created because of the following declaration.
+
+int[][][] a = new int[2][][];
+a[0] = new int[2][2];
+a[1] = new int[3][];
+a[1][0] = new int[1];
+a[1][1] = new int[2];
+a[1][2] = new int[3];
+
+51)  Predict the output of the below code snippet.
+
+int[][][] a = new int[2][3][4];
+System.out.println(a[0][1]);
+
+52)  What is the first and last output produced from the below program segment?
+
+int intNum[] = new int[100];
+int x;
+for(x=0; x<100; ++x)
+{
+	intNum[x] = 100-x;
+}
+
+for(x=85; x>=15; --x)
+{
+	System.out.println(intNum[x]);
+}
+
+53)  What are the contents of arr after the following code has been executed?
+
+int arr[][] = { {3,2,1},{1,2,3} };
+int value = 0;
+for (int row=1; row<arr.length; row++)
+{
+   for (int col=1; col<arr[0].length; col++)
+   {
+      if (arr[row][col] % 2 == 1)
+      {
+          arr[row][col] = arr[row][col] + 1;
+      }
+      else if (arr[row][col] % 2 == 0)
+      {
+          arr[row][col] = arr[row][col] * 2;
+      }
+   }
+}
+
+54)  Analyze the following code and choose the correct answer.
+
+int[] arr = new int[5];
+arr = new int[6];
+
+55)  What would be the result of attempting to compile and run the following code?
+
+class Test {
+      public static void main(String[] args) {
+            double[] x = new double[]{1, 2, 3};
+            System.out.println("Value is " + x[1]);
+      }
+}
+
+56)  What is the result of compiling and running the following code?
+
+class Test {
+        public static void main(String[] args) {
+                int[] a = new int[0];
+                System.out.print(a.length);
+        }
+}
+
+57)  Predict the output of the below Java program.
+
+class Test {
+	public static void main(String[] args) {
+		int arr[][] = {{1,23},{45,6}};
+
+		for(int i=0; i<=arr.length-1; ++i)
+		{
+			System.out.println(arr[i][i]);
+		}
+	}
+}
+
+58)  Predict the output of the below Java program.
+
+class Test {
+	public static void main(String[] args) {
+		int arr[][] = {{1,23},{45,6}};
+
+		for(int []a : arr)
+		{
+			System.out.println(a);
+		}
+	}
+}
+
+59)  What will be the output of the below code snippet?
+
+int[][] array;
+array = new int[3][];
+array[0] = {1,2};
+System.out.println(array[0][1]);
+
+60)  Predict the output of the below Java program.
+
+class Test {
+	public static void main(String[] args) {
+		int[] arr = {10, 20, 30, 40};
+		int length = arr.length;
+		arr = new int[5];
+		length = 4;
+		int[] a = new int[length=6];
+		System.out.println(arr.length);
+	}
+}
+
+61)  Predict the output of the below Java program.
+
+class Test {
+	public static void main(String[] args) {
+		int[] arr1[] = new int[][]{{1, 2}, {3, 4}};
+		int[] []arr2[] = {
+					{
+						{0, 1, 2},
+						{1, 2, 3}
+					},
+					{
+						{1},
+						{2, 4},
+						{3}
+					}
+				};
+		
+		System.out.println(arr1.length + arr2[1][1].length);
+	}
+}
+
+62)  Predict the output for the following code snippet.
+
+int[] a = {200, 300, 100, 500};
+System.out.println(a[a.length]);
+
+63)  Predict the elements in the matrix array after the below code is executed.
+
+int val = -1;
+int matrix[][];
+matrix = new int[3][4];
+for(int p=0; p<3; ++p)
+{
+	for(int q=0; q<4; ++q)
+	{
+		matrix[p][q] = val + (p-q) + 1;
+	}
+}
+
+64)  Predict the output:
+
+class Cricketer {
+	int runs;
+}
+class Test {
+	public static void main(String[] args) {
+		Cricketer c[] = new Cricketer[5];
+		
+		for(int i=0; i<=c.length-1; ++i) {
+			System.out.print(c[i]+" ");
+		}
+	}
+}
+
+65)  Predict the output of the below code snippet.
+
+int arr[] = new int[10];
+int j;
+for (j=0; j<9; j++)
+	arr[j] = j;
+for (; j<=arr.length-1; j++)
+	System.out.println(arr[j]);
+
+66)  Predict the output of the below Java program.
+
+class Student
+{
+	int a[] = {0, 1, 0, 1, 0};
+}
+
+class Test {
+	public static void main(String[] args) {
+		Student s[] = new Student[5];
+		
+		for(int i=0; i<=s.length-1; ++i)
+		{
+			s[i] = new Student();
+		}
+
+		for(int i=0; i<=4; ++i)
+		{
+			System.out.println(s[i].a[i]);
+		}
+	}
+}
+
+67)  What is the output for the following code fragment?
+
+int []bike = new int[7];
+bike[0] = 2004;
+bike[1] = 2006;
+System.out.println(bike[0] + " " + bike[1] + " " bike[7]);
+
+68)  Predict the output of the below code snippet.
+
+int i=5;
+int[] a = {i+1, i+2, i+3, i+4};
+System.out.println(a[i-3]);
+
+69)  What does the following output?
+
+String[] os = new String[] { "Mac", "Linux", "Windows" };
+Arrays.sort(os);
+System.out.println(Arrays.binarySearch(os, "Mac"));
+
+70)  Predict the output of the below code snippet.
+
+int arr[] = new int[] {0 , 1, 2, 3, 4, 5, 6, 7, 8, 9};
+int n = 6;
+n = arr[arr[n] / 2];
+System.out.println(arr[n] / 2);
+
+71)  What is the type of variable ‘b’ and ‘d’ in the following Java snippet?
+
+int a[], b;
+int []c, d;
+
+72)  Predict the output of the below Java program.
+
+class Test {
+	public static void main(String args[]) {
+		int arr[2];
+		System.out.println(arr[0]);
+		System.out.println(arr[1]);
+	}
+}
+
+73)  Predict the output of the below code snippet.
+
+String[] colors = {"RED";"YELLOW";"WHITE"};
+System.out.print(colors[2]);
+
+74)  What is the output of the below Java program with arrays?
+
+class Test {
+	public static void main(String args[]) {
+		String[] computer = {"RAM","HDD","Cache"};
+		String[] parts = {computer[0],computer[2]};
+		System.out.print(parts[1]);
+	}
+}
+
+75)  How many of the following are valid declarations?
+
+double[] arr;
+[]double arr;
+double arr[];
+double [] arr;
+
+76)  What will be the output if arr[1][1] is printed?
+
+String[][] arr = {{"Java", "C", "C++"},
+		           {1, 2}};
+
+77)  If int x[]= {5,9,7,3,2,8}; What will be the value of A and B?
+
+A= x.length
+B= x[3]+x[1]*x[2]
+
+78)  Identify the number of error(s), if any, in the following program.
+
+class Test {
+	public static void main(string args[]) {
+		int i;
+		int a[6]=[0,1,8,7,6,4];
+		for(i=0; i=a.length(),i+2)
+			System.out.println(a[I]);
+	}
+}
+
+79)  Give the total number of bytes occupied by these arrays for storing the DATA.
+
+int a1[25]
+char a2[3][4]
+double a3[12]
+
+80)  What will be the output of the following program?
+
+class Test {
+	public static void main(String args[]) {
+		int a[]={6,5,4,3,2,1};
+		int x;
+		for(x=5; x>=0; x--)
+		{
+			System.out.print(a[x]+" ");
+		}
+	}
+}
+
+81)  What will be the output of the following program?
+
+class Test {
+	public static void main(String args[]) {
+		int a[]={5,1,15,20,25};
+		int i,j;
+		int m;
+		i=++a[1];
+		j=a[2]++;
+		m=a[i++];
+		System.out.print(i+" "+j+" "+m);
+	}
+}
+
+82)  What is the output of this code segment?
+
+int G[][] = { {4, 3, 6}, {3, 4, 9}, {3, 7, 2} };
+int c = 0;
+int arr[]= new int[ 9 ];
+for(int j=0; j<3; j++){
+	for(int h=0; h <3 ; h++){
+		arr[c]= G[j][h];
+		c++;
+	}
+}
+for (int j=0; j<9 ; j++)
+	System.out.print(arr[j] + " ");
